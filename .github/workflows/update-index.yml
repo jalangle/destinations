@@ -15,7 +15,7 @@ jobs:
           run: source venv/bin/activate
         - name: Install dependencies
           run: python3 -m pip install -r requirements.txt
-        - name: Update KML
+        - name: Update Index
           run: python3 bin/calculate.py data.json index.html
         - name: Auto-commit updates
           uses: stefanzweifel/git-auto-commit-action@v4

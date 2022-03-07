@@ -5,7 +5,6 @@ import json
 import sys
 
 def main():
-	print(sys.argv)
 	source_file = sys.argv[1]
 	dest_file = sys.argv[2]
 
