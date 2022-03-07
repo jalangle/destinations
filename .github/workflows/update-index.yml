@@ -1,0 +1,24 @@
+name: Update Index
+
+on: push
+
+jobs:
+  update-index:
+    name: Update index
+    runs-on: ubuntu-latest
+    steps:
+        - name: Check-out repository
+          uses: actions/checkout@v2
+        - name: Install vENV
+          run: python3 -m venv venv
+        - name: Load environment
+          run: source venv/bin/activate
+        - name: Install dependencies
+          run: python3 -m pip install -r requirements.txt
+        - name: Update KML
+          run: python3 bin/calculate.py data.json index.html
+        - name: Auto-commit updates
+          uses: stefanzweifel/git-auto-commit-action@v4
+          with:
+              commit_message: Automated update of index
+              file_pattern: index.html
