@@ -41,6 +41,34 @@
 				"lat" : 37.779268,
 				"long" : -122.419248
 			}
+		},
+		{
+			"name": "The White House, Washington, DC",
+			"coordinates": {
+				"lat" : 38.897678,
+				"long" :  -77.036551
+			}
+		},
+		{
+			"name": "New York City Hall, New York, NY",
+			"coordinates": {
+				"lat" : 40.712742,
+				"long" :  -74.006001
+			}
+		},
+		{
+			"name": "Columbus City Hall, Columbus, OH",
+			"coordinates": {
+				"lat" : 39.962615,
+				"long" :   -83.003369
+			}
+		},
+		{
+			"name": "St Paul City Hall, St. Paul, MN",
+			"coordinates": {
+				"lat": 44.944063,
+				"long": -93.093799
+			}
 		}
 	]
 }
