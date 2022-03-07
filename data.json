@@ -1,0 +1,39 @@
+{
+	"origin"  : {
+		"name" : "Sheraton, Chicago, IL",
+		"coordinates" : {
+			"lat" : 41.889122,
+			"long" : -87.619431
+		}
+	},
+	"destinations" : [
+		{
+			"name" : "Seattle City Hall, Seattle, WA",
+			"coordinates" : {
+				"lat" : 47.603898,
+				"long" : -122.330522
+			}
+		},
+		{
+			"name" : "Denver Colorado City Hall, Denver, CA",
+			"coordinates" : {
+				"lat" : 39.739244,
+				"long" : -104.990967
+			}
+		},
+		{
+			"name" : "Des Moines City Hall, Des Moines, IA",
+			"coordinates": {
+				"lat" : 41.589052,
+				"long" : -93.616567
+			}
+		},
+		{
+			"name": "Miami City Hall, Miami, FL",
+			"coordinates": {
+				"lat" : 25.727749,
+				"long" : -80.233864
+			}
+		}
+	]
+}
