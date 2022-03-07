@@ -15,10 +15,15 @@ def main():
 	origin = ( data['origin']['coordinates']['lat'], data['origin']['coordinates']['long']) 
 
 	f = open(dest_file, 'w')
+	f.write('---\n')
+	f.write('Title: Distances from ' + data['origin']['name'] + '\n')
+	f.write('---\n')
+	f.write('\n')
+
 	for x in data['destinations']:
 		destination = ( x['coordinates']['lat'], x['coordinates']['long']) 
 		d = geodesic(origin, destination).miles
-		f.write('<li>The distance from ' + data['origin']['name'] + ' to ' + x['name'] + " is " + str(d) + ' miles</li>\n')
+		f.write('- The distance from ' + data['origin']['name'] + ' to ' + x['name'] + " is " + str(d) + ' miles.\n')
 	f.close()
 
 
