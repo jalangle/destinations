@@ -10,4 +10,4 @@ Title: Distances from Sheraton, Chicago, IL
 - The distance from Sheraton, Chicago, IL to The White House, Washington, DC is 594.7354828396954 miles.
 - The distance from Sheraton, Chicago, IL to New York City Hall, New York, NY is 712.3238224008217 miles.
 - The distance from Sheraton, Chicago, IL to Columbus City Hall, Columbus, OH is 275.6969726562577 miles.
-- The distance from Sheraton, Chicago, IL to St Paul City Hall, St. Paul, MN is 346.81213567791195 miles.
+- The distance from Sheraton, Chicago, IL to St Paul City Hall, St. Paul, MN is 346.81213567791235 miles.
