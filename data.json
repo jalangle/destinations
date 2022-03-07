@@ -34,6 +34,13 @@
 				"lat" : 25.727749,
 				"long" : -80.233864
 			}
+		},
+		{
+			"name": "San Francisco City Hall, San Francisco, CA",
+			"coordinates": {
+				"lat" : 37.779268,
+				"long" : -122.419248
+			}
 		}
 	]
 }
