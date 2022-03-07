@@ -23,7 +23,7 @@ def main():
 	for x in data['destinations']:
 		destination = ( x['coordinates']['lat'], x['coordinates']['long']) 
 		d = geodesic(origin, destination).miles
-		f.write('- The distance from ' + data['origin']['name'] + ' to ' + x['name'] + " is " + str(d) + ' miles.\n')
+		f.write('- The distance from ' + data['origin']['name'] + ' to ' + x['name'] + " is " + str(round(d, 2)) + ' miles.\n')
 	f.close()
 
 
