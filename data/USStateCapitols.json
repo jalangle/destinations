@@ -1,0 +1,354 @@
+{
+	"locations" : [
+		{
+			"name" : "Alabama State Capitol",
+			"coordinates" : {
+				"lat" : 32.377715,
+				"long": -86.300496
+			}
+		},
+		{
+			"name" : "Alaska State Capitol",
+			"coordinates" : {
+				"lat" : 58.302031,
+				"long": -134.410440
+			}
+		},
+		{
+			"name" : "Arizona State Capitol",
+			"coordinates" : {
+				"lat" : 33.448004, 
+				"long": -112.097025
+			}
+		},
+		{
+			"name" : "Arkansas State Capitol",
+			"coordinates" : {
+				"lat" : 34.746594, 
+				"long": -92.288933
+			}
+		},
+		{
+			"name" : "California State Capitol",
+			"coordinates" : {
+				"lat" : 38.576546, 
+				"long": -121.493415
+			}
+		},
+		{
+			"name" : "Colorado State Capitol",
+			"coordinates" : {
+				"lat" : 39.739249, 
+				"long": -104.984888
+			}
+		},
+		{
+			"name" : "Connecticut State Capitol",
+			"coordinates" : {
+				"lat" : 41.764182,
+				"long":  -72.682301
+			}
+		},
+		{
+			"name" : "Delaware State Capitol",
+			"coordinates" : {
+				"lat" : 39.157328, 
+				"long": -75.519694
+			}
+		},
+		{
+			"name" : "Florida State Capitol",
+			"coordinates" : {
+				"lat" : 30.438136, 
+				"long": -84.282099
+			}
+		},
+		{
+			"name" : "Georgia State Capitol",
+			"coordinates" : {
+				"lat" : 33.749019, 
+				"long": -84.388094
+			}
+		},
+		{
+			"name" : "Hawaii State Capitol",
+			"coordinates" : {
+				"lat" : 21.307329,
+				"long":  -157.857451
+			}
+		},
+		{
+			"name" : "Idaho State Capitol",
+			"coordinates" : {
+				"lat" : 43.617755, 
+				"long": -116.199646
+			}
+		},
+		{
+			"name" : "Illinois State Capitol",
+			"coordinates" : {
+				"lat" : 39.798414,
+				"long":  -89.654762
+			}
+		},
+		{
+			"name" : "Indiana State Capitol",
+			"coordinates" : {
+				"lat" : 39.768600, 
+				"long":  -86.162646
+			}
+		},
+		{
+			"name" : "Iowa State Capitol",
+			"coordinates" : {
+				"lat" : 41.591201,
+				"long":  -93.603946
+			}
+		},
+		{
+			"name" : "Kansas State Capitol",
+			"coordinates" : {
+				"lat" : 39.048139,
+				"long":  -95.677996
+			}
+		},
+		{
+			"name" : "Kentucky State Capitol",
+			"coordinates" : {
+				"lat" : 38.186725,
+				"long":  -84.875443
+			}
+		},
+		{
+			"name" : "Louisiana State Capitol",
+			"coordinates" : {
+				"lat" : 30.457048,
+				"long":  -91.187344
+			}
+		},
+		{
+			"name" : "Maine State Capitol",
+			"coordinates" : {
+				"lat" : 44.307236,
+				"long":  -69.781675
+			}
+		},
+		{
+			"name" : "Maryland State Capitol",
+			"coordinates" : {
+				"lat" : 38.978870,
+				"long":  -76.490979
+			}
+		},
+		{
+			"name" : "Massachusetts State Capitol",
+			"coordinates" : {
+				"lat" : 42.358326,
+				"long":  -71.063518
+			}
+		},
+		{
+			"name" : "Michigan State Capitol",
+			"coordinates" : {
+				"lat" : 42.733581,
+				"long":  -84.555405
+			}
+		},
+		{
+			"name" : "Minnesota State Capitol",
+			"coordinates" : {
+				"lat" : 44.955228,
+				"long":  -93.102204
+			}
+		},
+		{
+			"name" : "Mississippi State Capitol",
+			"coordinates" : {
+				"lat" : 32.303825,
+				"long":  -90.182132
+			}
+		},
+		{
+			"name" : "Missouri State Capitol",
+			"coordinates" : {
+				"lat" : 38.579213,
+				"long":  -92.172922
+			}
+		},
+		{
+			"name" : "Montana State Capitol",
+			"coordinates" : {
+				"lat" : 46.585729,
+				"long":  -112.018297
+			}
+		},
+		{
+			"name" : "Nebraska State Capitol",
+			"coordinates" : {
+				"lat" : 40.808056,
+				"long":  -96.699711
+			}
+		},
+		{
+			"name" : "Nevada State Capitol",
+			"coordinates" : {
+				"lat" : 39.162946,
+				"long":  -119.766109
+			}
+		},
+		{
+			"name" : "New Hampshire State Capitol",
+			"coordinates" : {
+				"lat" : 43.206881,
+				"long": -71.538141
+			}
+		},
+		{
+			"name" : "New Jersey State Capitol",
+			"coordinates" : {
+				"lat" : 42.652570,
+				"long":  -73.757317
+			}
+		},
+		{
+			"name" : "New Mexico State Capitol",
+			"coordinates" : {
+				"lat" : 35.682285,
+				"long": -105.939660
+			}
+		},
+		{
+			"name" : "New York State Capitol",
+			"coordinates" : {
+				"lat" : 42.652570, 
+				"long": -73.757317
+			}
+		},
+		{
+			"name" : "North Carolina State Capitol",
+			"coordinates" : {
+				"lat" : 35.780386,
+				"long": -78.638999
+			}
+		},
+		{
+			"name" : "North Dakota State Capitol",
+			"coordinates" : {
+				"lat" : 46.820777,
+				"long":  -100.783287
+			}
+		},
+		{
+			"name" : "Ohio State Capitol",
+			"coordinates" : {
+				"lat" : 39.961288,
+				"long":  -82.999062
+			}
+		},
+		{
+			"name" : "Oklahoma State Capitol",
+			"coordinates" : {
+				"lat" : 35.492193,
+				"long":  -97.503356
+			}
+		},
+		{
+			"name" : "Oregon State Capitol",
+			"coordinates" : {
+				"lat" : 44.938405,
+				"long":  -123.030331
+			}
+		},
+		{
+			"name" : "Pennsylvania  State Capitol",
+			"coordinates" : {
+				"lat" : 40.264441,
+				"long": -76.883624
+			}
+		},
+		{
+			"name" : "Rhode Island State Capitol",
+			"coordinates" : {
+				"lat" : 41.830892,
+				"long":  -71.414940
+			}
+		},
+		{
+			"name" : "South Carolina State Capitol",
+			"coordinates" : {
+				"lat" : 34.000278,
+				"long": -81.033128
+			}
+		},
+		{
+			"name" : "South Dakota State Capitol",
+			"coordinates" : {
+				"lat" : 44.367080,
+				"long": -100.346406
+			}
+		},
+		{
+			"name" : "Tennessee State Capitol",
+			"coordinates" : {
+				"lat" : 36.165789,
+				"long": -86.784249
+			}
+		},
+		{
+			"name" : "Texas State Capitol",
+			"coordinates" : {
+				"lat" : 30.274682,
+				"long": -97.740326
+			}
+		},
+		{
+			"name" : "Utah State Capitol",
+			"coordinates" : {
+				"lat" : 40.777393,
+				"long":  -111.888247
+			}
+		},
+		{
+			"name" : "Vermont State Capitol",
+			"coordinates" : {
+				"lat" : 44.262408,
+				"long":  -72.580601
+			}
+		},
+		{
+			"name" : "Virginia State Capitol",
+			"coordinates" : {
+				"lat" : 37.538821,
+				"long":  -77.433563
+			}
+		},
+		{
+			"name" : "Washington State Capitol",
+			"coordinates" : {
+				"lat" : 47.035744,
+				"long":  -122.904761
+			}
+		},
+		{
+			"name" : "West Virginia State Capitol",
+			"coordinates" : {
+				"lat" : 38.336295,
+				"long":  -81.612342
+			}
+		},
+		{
+			"name" : "Wisconsin State Capitol",
+			"coordinates" : {
+				"lat" : 43.074701,
+				"long":  -89.384119
+			}
+		},
+		{
+			"name" : "Wyoming State Capitol",
+			"coordinates" : {
+				"lat" : 41.140274,
+				"long":  -104.820310
+			}
+		}
+	]
+}
