@@ -1,12 +1,5 @@
 {
-	"origin"  : {
-		"name" : "Sheraton, Chicago, IL",
-		"coordinates" : {
-			"lat" : 41.889122,
-			"long" : -87.619431
-		}
-	},
-	"destinations" : [
+	"locations" : [
 		{
 			"name" : "Seattle City Hall, Seattle, WA",
 			"coordinates" : {
@@ -71,4 +64,5 @@
 			}
 		}
 	]
+
 }
