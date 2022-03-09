@@ -2,8 +2,8 @@
 
 from geopy.distance import geodesic
 import json
+from pathlib import Path
 import sys
-from pprint import pprint
 
 class Location:
 	def __init__(self, name, latitude, longitude):
@@ -25,15 +25,27 @@ def locationsDataFromFile(path):
 	f.close()
 	return list(map(lambda x: Location(x['name'], x['coordinates']['lat'], x['coordinates']['long']), data['locations']))
 
+def getData(path):
+	origins = list()
+	cities = list()
+	p = Path(path)
+
+	for f in p.iterdir():
+		if f.is_file():
+			if(f.suffix == ".json"):
+				if(f.name == "origin.json"):
+					origins.extend(locationsDataFromFile(f))
+				else:
+					cities.extend(locationsDataFromFile(f))
+
+	return (origins, cities)
+
 def main():
-	origin_input_path = sys.argv[1]
-	city_input_path = sys.argv[2]
-	dest_file = sys.argv[3]
+	data_dir_path = sys.argv[1]
+	dest_file = sys.argv[2]
 
-	origins = locationsDataFromFile(origin_input_path)
+	(origins, cities) = getData(data_dir_path)
 	origin = origins[0]
-
-	cities = locationsDataFromFile(city_input_path)
 
 	f = open(dest_file, 'w')
 	f.write('---\n')
